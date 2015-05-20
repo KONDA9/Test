@@ -13,11 +13,12 @@ android {
     }
     signingConfigs {
         release {
-            storeFile file("libs/android.jks")
+            //storeFile file("libs/android.jks")
+            storeFile file('C:/Users/bkondaiah/Desktop/Certificate/android.jks')
             storePassword "123456"
             keyAlias "konda"
             keyPassword "123456"
-           // storeFile file('C:/Users/bkondaiah/Desktop/Certificate/android.jks')
+
         }
     }
     buildTypes {
