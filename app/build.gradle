@@ -18,7 +18,6 @@ android {
             storePassword "123456"
             keyAlias "konda"
             keyPassword "123456"
-
         }
     }
     buildTypes {
