@@ -17,7 +17,7 @@ android {
             storePassword "123456"
             keyAlias "konda"
             keyPassword "123456"
-            storeFile file('C:/Users/bkondaiah/Desktop/Certificate/android.jks')
+           // storeFile file('C:/Users/bkondaiah/Desktop/Certificate/android.jks')
         }
     }
     buildTypes {
